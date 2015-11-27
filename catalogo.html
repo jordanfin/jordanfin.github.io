@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>TW Catalogo</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+
+<!-- Beginning of compulsory code below -->
+
+<link rel="shortcut icon" type="image/x-icon" href="images/icon2.png"/>
+<link href="css/style.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="css/dropdownNew.css" media="screen" rel="stylesheet" type="text/css" />
+
+
+<link type="text/css" href="css/jquery.dataTables.min.css" rel="stylesheet"/>
+<script type="text/javascript" src="js/jquery.js"></script>
+      <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+<script>
+         $(document).ready(function() {
+            $('#tabla').dataTable();
+         })
+</script>
+
+
+<!-- / END -->
+
+</head>
+<body id="preference">
+
+<!-- barra de menu -->
+<nav>
+
+        <ul>
+            <li><a href="./index.html"><img src="images/logo.png" width="150" height="20"></a></li>
+            <li><a href="./index.html">INICIO</a></li>
+            <li><a href="./noticias.html">NOTICIAS</a></li>
+            <li class="drop">
+                <a href="#">JUEGOS</a>
+                
+                <div class="dropdownContain">
+                    <div class="dropOut">
+                        <div class="triangle"></div>
+                        <ul>
+                           <li onclick="location.href='./catalogo.html';">Catálogo</li>
+                            <li onclick="location.href='./construccion.html';">Star Wars™ Battlefront™</li>
+                            <li onclick="location.href='./construccion.html';">Black Desert</li>
+                            <li onclick="location.href='./construccion.html';">Fallout 4</li>
+                            <li onclick="location.href='./construccion.html';">StarCraft 2</li>
+                        </ul>
+                    </div>
+                </div>
+            
+            </li>
+            <li><a href="./nosotros.html">NOSOTROS</a></li>
+        </ul>
+</nav>
+
+
+<!-- CATALOGO -->
+</br></br>
+<div>
+    <div id="container">
+       <table id="tabla">
+         <thead>
+            <tr><td>Nombre</td><td>Fecha de lanzamiento</td><td>Genero</td><td>Precio</td></tr>
+         </thead>
+         <tbody>
+            <tr><td>Star Wars™ Battlefront™ </td><td>2014-03-12</td><td>Shooter</td><td>$100</td></tr>
+            <tr><td>Black Desert</td><td>2015-08-22</td><td>MMORPG</td><td>$120</td></tr>
+            <tr><td>FallOut 4</td><td>2015-11-11</td><td>Rol / Sandbox</td><td>$150</td></tr>
+            <tr><td>Assassin's Creed Syndicate</td><td>2015-11-19</td><td>Rol</td><td>$200</td></tr>
+            <tr><td>Draft Day Sports College Basketball 3</td><td>2015-11-20</td><td>Deporte</td><td>$130</td></tr>
+            <tr><td>Professional Farmer 2016</td><td>2015-09-15</td><td>Estrategia</td><td>$90</td></tr>
+            <tr><td>Minecraft: Story Mode</td><td>2015-05-14</td><td>Aventura</td><td>$220</td></tr>
+            <tr><td>Mario y Luigi: Paper Jam Bros</td><td>2011-09-09</td><td>Rol</td><td>$85</td></tr>
+            <tr><td>Star Wars™ Battlefront™ </td><td>2014-03-12</td><td>Shooter</td><td>$100</td></tr>
+            <tr><td>Black Desert</td><td>2015-08-22</td><td>MMORPG</td><td>$120</td></tr>
+            <tr><td>FallOut 4</td><td>2015-11-11</td><td>Rol / Sandbox</td><td>$150</td></tr>
+            <tr><td>Assassin's Creed Syndicate</td><td>2015-11-19</td><td>Rol</td><td>$200</td></tr>
+            <tr><td>Draft Day Sports College Basketball 3</td><td>2015-11-20</td><td>Deporte</td><td>$130</td></tr>
+            <tr><td>Professional Farmer 2016</td><td>2015-09-15</td><td>Estrategia</td><td>$90</td></tr>
+            <tr><td>Minecraft: Story Mode</td><td>2015-05-14</td><td>Aventura</td><td>$220</td></tr>
+            <tr><td>Mario y Luigi: Paper Jam Bros</td><td>2011-09-09</td><td>Rol</td><td>$85</td></tr>
+         </tbody>
+      </table>
+    </div>
+</div>
+
+
+
+<div id="footer"><br><br>
+<div align="center"><a href="./index.html"><img src="images/logo.png" width="128" height="20"></a></div>
+<p class="legal">
+
+©2015 TEAMWARRIOR. TODOS LOS DERECHOS RESERVADOS.
+
+  </p>
+<div id="partner"></div></div>
+
+</body>
+</html>
